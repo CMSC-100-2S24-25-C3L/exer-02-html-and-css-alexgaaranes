@@ -8,27 +8,90 @@
     </head>
     <body>
         <header>
+            <h4>A L E X &nbsp | &nbsp P o r t f o l i o</h4>
             <nav>
-                <a id="about">About</a>
-                <a id="contact">Skills</a>
-                <a id="projects">Projects</a>
+                <a href=#about>About</a>
+                <a href=#skills>Skills</a>
+                <a href=#projects>Projects</a>
             </nav>
         </header>
+        <div id="header"></div> <!--id for back to top anchor-->
         <div class="container">
             <div class="profile">
-                <img>
+                <img src="images/pfp.jpg" id="display-pic">
+                <hr>
                 <nav>
-                    <a id="git"><img></a>
-                    <a id="instagram"><img></a>
-                    <a id="linkedIn"><img></a>
+                    <a id="github" href="https://github.com/alexgaaranes"><img src="images/github.svg"></a>
+                    <a id="instagram" href="https://www.instagram.com/alexaranes/"><img src="images/instagram.svg"></a>
+                    <a id="linkedIn" href="https://ph.linkedin.com/in/alexander-gabriel-aranes-626a2731b"><img src="images/linkedin.svg"></a>
                 </nav>
             </div>
             <div class="info">
+                <section class="about" id="about">
+                    <div class="about-container">
+                        <h3>About</h3><hr><br>
+                        <p>I am <span class="name">Alexander Gabriel A. Aranes</span>,
+                        a graduating <span>Computer Science</span> student from the <span>University of the Philippines Los Baños.</span>
+                        I currently live in the Philippines and worked on various software engineering projects as a student.
+                        </p>
+                    </div>
+                </section><br>
+                <section class="skills" id="skills">
+                    <h3>Skills</h3><hr><br>
+                    <p>I have experience on different programming languages and frameworks.</p>
+                    <br>
+                    <a href="https://skillicons.dev">
+                        <img src="https://skillicons.dev/icons?i=python,r,c,cs,java,js,lua" />
+                    </a>  
+                    <a href="https://skillicons.dev">
+                        <img src="https://skillicons.dev/icons?i=linux,arch,neovim,git,godot,arduino" />
+                    </a><br>
+                    <p> I also worked on projects that utilizes <span>Python Data Science Tools</span> like <span>Pandas</span>.</p>
+                </section><br>
+                <section class="projects" id="projects">
+                    <h3>Projects</h3><hr><br>
+                    <ul>
+                        <li>
+                            <div id="project1">
+                                <h4>BINI Static Web Showcase</h4>
+                                <p>- A static web page showcasing the Philippines' 
+                                    <span>Nation's Girls Group</span> BINI.</p>
+                                <a href="https://github.com/alexgaaranes/BINI-web-showcase">
+                                    <img src="images/projects/project1.png">
+                                </a>
+                            </div>
+                        </li><br>
+                        <li>
+                            <div id="project2">
+                                <h4>Diet Problem Solver</h4>
+                                <p>- A web app made using <span>R shiny</span> to calculate for the least cost
+                                needed to gain the most nutrition based one the diet input.</p>
+                                <a href="https://github.com/alexgaaranes/Diet-Problem-Solver">
+                                    <img src="images/projects/project2.png">
+                                </a>
+                            </div>
+                        </li><br>
+                        <li>
+                            <div id="project3">
+                                <h4>Rush Pedal</h4>
+                                <p>- An entry for <span>Game Jam Plus 2024-2025</span>. It's a hyper-casual game
+                                that plays like a rhythm game.</p>
+                                <a href="https://rednuerocs.itch.io/rush-pedal">
+                                    <img src="images/projects/project3.png">
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
 
+                </section>
             </div>
         </div>
         <footer>
-
+            <p>Brgy. Banca Banca, Victoria, Laguna 4011</p>
+            <p>rednuerocs@gmail.com</p>
+            <a href="https://github.com/alexgaaranes">GitHub Profile</a>
+            <a href=#header>Back to Top</a>
+            <p>© 2025 | Aranes</p>
         </footer>
     </body>
 </html>
