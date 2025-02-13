@@ -62,7 +62,7 @@ header > nav > *{
 .profile{
     background-color: rgb(31, 31, 110);
     padding: 3rem;
-    max-height: fit-content;
+    max-height: min-content;
 }
 
 .profile > nav {
